@@ -12,7 +12,7 @@ export class CondensedComponent extends RootLayout implements OnInit {
       {
         label:"User",
        
-        routerLink:"user",
+        routerLink:"/user",
         iconType:"pg",
         iconName:"home",
         thumbNailClass:"bg-success",
@@ -20,8 +20,7 @@ export class CondensedComponent extends RootLayout implements OnInit {
       },
       {
           label:"Balances",
-         
-          routerLink:"balances",
+          routerLink:"/balances",
           iconType:"pg",
           iconName:"layouts",
           toggle:"close",
@@ -29,15 +28,16 @@ export class CondensedComponent extends RootLayout implements OnInit {
 
       {
         label:"Activity",
-        routerLink:"activity",
+        routerLink:"/activity",
         iconType:"letter",
         iconName:"pa",
         toggle:"close",
+        
     },
       {
       label:"Tickets",
       // details:"234 New Emails",
-      routerLink:"ticket",
+      routerLink:"/ticket",
       iconType:"pg",
       iconName:"note",
       toggle:"close",
@@ -45,7 +45,7 @@ export class CondensedComponent extends RootLayout implements OnInit {
     {
       label:"Market Maker",
       // details:"234 New Emails",
-      routerLink:"marketmaker",
+      routerLink:"/marketmaker",
       iconType:"pg",
       iconName:"map",
       toggle:"close",
@@ -53,7 +53,7 @@ export class CondensedComponent extends RootLayout implements OnInit {
     {
       label:"Exchange Admin",
       // details:"234 New Emails",
-      routerLink:"exchangeadmin",
+      routerLink:"/exchangeadmin",
       iconType:"pg",
       iconName:"charts",
       toggle:"close",

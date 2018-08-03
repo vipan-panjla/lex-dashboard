@@ -24,7 +24,7 @@ import {ActivityComponent} from './activity/activity.component'
 export const AppRoutes: Routes = [
 
   {
-    path: 'admin',
+    path: '',
     data: {
         breadcrumb: 'Home'
     },
@@ -36,7 +36,7 @@ export const AppRoutes: Routes = [
   },
   
   {
-    path: 'admin',
+    path: '',
     component: CondensedComponent,
     children: [{
       path: 'user',
@@ -45,7 +45,7 @@ export const AppRoutes: Routes = [
   },
 
     {
-    path: 'admin',
+    path: '',
     component: CondensedComponent,
     children: [{
       path: 'balances',
@@ -54,7 +54,7 @@ export const AppRoutes: Routes = [
   },
 
   {
-    path: 'admin',
+    path: '',
     component: CondensedComponent,
     children: [{
       path: 'account',
@@ -63,7 +63,7 @@ export const AppRoutes: Routes = [
   },
 
   {
-    path: 'admin',
+    path: '',
     component: CondensedComponent,
     children: [{
       path: 'ticket',
@@ -73,7 +73,7 @@ export const AppRoutes: Routes = [
 
 
   {
-    path: 'admin',
+    path: '',
     component: CondensedComponent,
     children: [{
       path: 'marketmaker',
@@ -81,7 +81,7 @@ export const AppRoutes: Routes = [
     }],
   },
   {
-    path: 'admin',
+    path: '',
     component: CondensedComponent,
     children: [{
       path: 'exchangeadmin',
@@ -91,7 +91,7 @@ export const AppRoutes: Routes = [
 
 
   {
-    path: 'admin',
+    path: '',
     component: CondensedComponent,
     children: [{
       path: 'activity',

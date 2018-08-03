@@ -10,9 +10,11 @@
         margin-bottom: 0;
         li{
             vertical-align: top;
-            .form-group{
+            max-width: 120px;
+            width: 100%;
+            .form{
                 label{
-                    font-size: 13px;
+                    font-size: 14px;
                     font-weight: 600;
                 }
             }
@@ -24,13 +26,18 @@
                 select{
                     border-radius: 0;
                     height: 40px;
-                    width: 70%;
                     border-color: rgba(0, 0, 0, 0.07);
                 }
             }
         }
-        .filter-first{
-            width: 22%;
+        .filter-first {
+            max-width: 190px !important;
+          form{
+              input{
+                width: 100% !important;
+                max-width: 120px;
+              }
+          }
         }
     }
     h4{
